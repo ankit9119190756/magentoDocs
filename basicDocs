@@ -32,3 +32,4 @@ php bin/magento cache:flush
 	13.sudo systemctl restart elasticsearch
 	14.curl -X GET 'http://localhost:9200'
 *************************************************************************************************************************************************
+>>> Magento 2 Module Docs https://alanstorm.com/category/magento-2/ 
