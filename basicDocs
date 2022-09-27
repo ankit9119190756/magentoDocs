@@ -12,8 +12,10 @@ php bin/magento cache:flush
 
 1.) composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition=2.4.4 magento244new
 
-2.) /opt/lampp/bin/php bin/magento setup:install --base-url="http://localhost/magento244new/" --db-host="localhost" --db-name="magento244new" --db-user="root" --admin-firstname="admin" --admin-lastname="admin" --mailto:admin-email="admin@admin.com" --admin-user="admin" --admin-password="admin@123" --language="en_US" --currency="INR" --timezone="America/Chicago" --use-rewrites="1" --backend-frontname="admin"
-
+2.) /opt/lampp/bin/php bin/magento setup:install --base-url="http://localhost/magento244new/" --db-host="localhost" --db-name="magento"
+ --db-user="root" --admin-firstname="admin" --admin-lastname="admin" --admin-email="admin@admin.com" --admin-user="admin" --admin-password="admin@123"
+ --language="en_US" --currency="INR" --timezone="America/Chicago" --use-rewrites="1" --backend-frontname="admin"
+ 
 /opt/lampp/bin/php bin/magento admin:user:unlock developer
 
 3.) Elastic search installation steps:
