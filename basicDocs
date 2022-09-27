@@ -34,4 +34,5 @@ php bin/magento cache:flush
 	13.sudo systemctl restart elasticsearch
 	14.curl -X GET 'http://localhost:9200'
 *************************************************************************************************************************************************
+https://magento.stackexchange.com/questions/331991/this-is-not-implemented-as-it-is-not-possible-to-implement-argon2i-with-accepta
 >>> Magento 2 Module Docs https://alanstorm.com/category/magento-2/ 
