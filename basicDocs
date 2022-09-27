@@ -34,5 +34,6 @@ php bin/magento cache:flush
 	13.sudo systemctl restart elasticsearch
 	14.curl -X GET 'http://localhost:9200'
 *************************************************************************************************************************************************
-https://magento.stackexchange.com/questions/331991/this-is-not-implemented-as-it-is-not-possible-to-implement-argon2i-with-accepta
+>>> https://magento.stackexchange.com/questions/331991/this-is-not-implemented-as-it-is-not-possible-to-implement-argon2i-with-accepta
+>>>php_sodium https://support.cpanel.net/hc/en-us/articles/360056786594-How-to-Install-the-Sodium-Cryptographic-Library-libsodium-and-PHP-Extension-on-cPanel
 >>> Magento 2 Module Docs https://alanstorm.com/category/magento-2/ 
