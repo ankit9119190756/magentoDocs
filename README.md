@@ -1,2 +1,5 @@
-
-https://www.aptrack.co/uap/AAAG9gAPdn4B4a-_/
+**Chrome Extension:
+**
+https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg
+https://chrome.google.com/webstore/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk
+https://chrome.google.com/webstore/detail/docsumo-free-ocr-software/ihmmlfacoffajllfpdfkdikgmoogbnph
