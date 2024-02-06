@@ -1,77 +1,39 @@
 Types of products in Magento?
-
 How to create a Module in Magento 2?
-
 How to create a theme in Magento 2?
-
 Difference between a Bundle vs. a group product?
-
 Designing pattern of Magento (read each pattern)?
-
 What is dependency injection?
-
 Plugin vs. preference vs. event observer?
-
 What plugin we Magento 2 not recommend?
-
 How to upgrade Magento?
-
 How to migrate Magento?
-
 What are magic methods?
-
 Magento 2 arch. ?
-
 What is the Extension attribute?
-
 How to create API in Magento 2?
-
 How many types of API authentication in Magento 2?
-
 What is cron? how to create a cron job in Magento 2?
-
 Price vs. tier price vs special price?
-
 What is eav attribute? all eav tables
-
 What is the multi-vendor site?
-
 Website Vs store  Vs store view?
-
 How to use join two tables in Magento 2.
-
 What is an object manager?
-
 what is Factory class?
-
 what is Proxy class?
-
 Why do we use virtual type in Magento 2?
-
 Use of composer.Json file?
-
 Use of composer.lock?
-
 How to improve website speed?
-
 Use of eav.php file?
-
 What is PWA?
-
 System requirements for Magento 2?
-
 what is elasticsearch?
-
 What is Radish?
-
 What is varnish?
-
 Use of system.xml
-
 What is registration.php?
-
 How to create a table in Magento 2?
-
 Use of Modal, Resourcemodal, and Collection
-
 >>> PHP, Jquery, SQL ``````````````````
