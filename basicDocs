@@ -1,10 +1,9 @@
 rm -rf var/di/* var/generation/* var/cache/* var/log/* var/page_cache/* var/session/* var/view_preprocessed/* pub/static/*
+
 php bin/magento setup:upgrade
-php bin/magento setup:db-schema:upgrade
 php bin/magento setup:di:compile
 php bin/magento setup:static-content:deploy -f
 php bin/magento indexer:reindex
-php bin/magento cache:clean
 php bin/magento cache:flush
 
 >> Magento 2 installation.
@@ -12,7 +11,7 @@ php bin/magento cache:flush
 
 1.) composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition=2.4.4 magento244new
 
-2.) /opt/lampp/bin/php bin/magento setup:install --base-url="http://localhost/magento244new/" --db-host="localhost" --db-name="magento"
+2.) php bin/magento setup:install --base-url="http://localhost/magento244new/" --db-host="localhost" --db-name="magento"
  --db-user="root" --admin-firstname="admin" --admin-lastname="admin" --admin-email="admin@admin.com" --admin-user="admin" --admin-password="admin@123"
  --language="en_US" --currency="INR" --timezone="America/Chicago" --use-rewrites="1" --backend-frontname="admin"
  
@@ -33,6 +32,22 @@ php bin/magento cache:flush
 	12.Updating the Network Host=127.0.0.1
 	13.sudo systemctl restart elasticsearch
 	14.curl -X GET 'http://localhost:9200'
+
+4.) 
+	<VirtualHost *:80>
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/html/avam/pub
+	         ServerName test.avam.com
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+	<Directory "/var/www/html">
+	AllowOverride all
+	</Directory>
+	</VirtualHost>
+
+
+
+
 *************************************************************************************************************************************************
 >>> https://magento.stackexchange.com/questions/331991/this-is-not-implemented-as-it-is-not-possible-to-implement-argon2i-with-accepta
 >>>php_sodium https://magento.stackexchange.com/questions/353452/magento-installing-issue-installer-php-line-546-missing-following-extensions
